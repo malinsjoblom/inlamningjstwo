@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Budget Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header></header>
+<!--drop-down menu -->
+<div class="input-containers">
+
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+    </select>
+
+<!--input fields for the information and value-->
+    <input type="text" id="description" placeholder="Add description">
+    <input type="number" id="value" placeholder="Value">
+    
+<!--add button-->
+    <button onclick="add()"> Add </button>
+
+<!--clear button-->
+    <button id="clear"> Clear </button>
+</div>
+
+
+    <br>
+<!--shows the total and exspenses, income-->
+<div class="result">
+
+
+    <div >  
+        <h1> Total budget:</h1>
+        <div id="totalBudget"></div>
+    </div>
+
+    <div id="expenses">
+        <h1>Expenses:</h1>
+    </div>
+
+    <div id="income-h1">
+        <h1>Income:</h1>
+    </div>
+</div>
+<!--color to se the diffrence of income and income -->
+    <br>
+    <div id="income" style="color:red"></div>
+
+    <br>
+
+    <div id="expense" style="color:blue"></div>
+
+
+    <script src="JavaScript.js" defer></script>
+
+</body>
+</html>
