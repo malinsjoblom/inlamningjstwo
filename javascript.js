@@ -61,14 +61,14 @@ function add() {
 
         location.reload()
 
-       /*  console.log("hej")
-        list = [] */ 
+        /*  console.log("hej")
+         list = [] */
     }
 
     var clearButton = document.querySelector("#clear")
     console.log(clearButton)
 
-    clearButton.addEventListener("click", clear); 
+    clearButton.addEventListener("click", clear);
 
 
 }

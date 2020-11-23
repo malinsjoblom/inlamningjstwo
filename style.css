@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+button {
+    background-color: rgb(187, 153, 122);
+}
+
 
 /* Media Queries small phones */ 
-@media (min-width: 320px) {
+@media (min-width: 280px) {
 
     body {
         background-color:  rgb(226, 184, 147);
@@ -43,13 +47,16 @@
         font-family: 'Roboto', sans-serif;
     }
 
+
+
+    
+
     .result {
         font-size: 0.7rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 0.8rem;
-
     }
 
     #totalBudget, #income-h1, #expenses-h1 {
@@ -79,13 +86,16 @@
         display: flex;
         flex-direction: row;
         width: 70%;
-        padding: 2rem;
+        margin: auto;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
     }
 
     #operator, #description, #value, button {
         border: 3px solid  rgb(187, 153, 122);
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-family: 'Roboto', sans-serif;
+        padding: 0.5rem;
     }
 
     .result {
@@ -100,16 +110,74 @@
     #totalBudget, #income-h1, #expenses-h1 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
+    padding: 1.7rem;
     }
+
+    #inc, #exp, #total {
+        height: 25rem;
+    }
+
 
     h1 {
         border-bottom: 5px solid  rgb(187, 153, 122);
         font-family: 'Roboto', sans-serif;
         padding-right: 2rem;
         padding-left: 2rem;
+        font-size: 2.5rem;
     }
+
+}
+
+
+
+/* For small & larger laptops/desktops*/
+@media (min-width: 1200px) {
+
+    header {
+        font-size: 3rem;
+    }
+
+    .input-containers {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: auto;
+        padding: 3rem;
+    }
+
+
+    #operator, #description, #value, button {
+        padding: 1rem;
+    }
+
+    .result {
+        font-size: 1.5rem;
+        color: black;
+        background-image: url(pics/savings.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: auto;
+        margin: 1rem;
+
+    }
+
+    #inc, #exp, #total {
+        background-color:  rgb(226, 184, 147);
+        opacity:75%;
+        font-weight: bolder;
+    }
+
+
+    h1 {
+        background-color:  rgb(226, 184, 147);
+        border: none;
+        font-weight: bolder;
+    }
+
+
+
 
 }
 
