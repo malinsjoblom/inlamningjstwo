@@ -11,12 +11,12 @@ button {
 
 
 
-/* Media Queries small phones */ 
-@media (min-width: 280px) {
+/* Small phones */ 
 
-    body {
-        background-color:  rgb(226, 184, 147);
-    }
+
+body {
+    background-color:  rgb(226, 184, 147);
+}
 
     header {
         width: 100%;
@@ -71,7 +71,6 @@ button {
         width: 100%;
         font-family: 'Roboto', sans-serif;
     }
-}
 
 
 /*Media Queries larger devices 992*/
@@ -90,14 +89,11 @@ button {
     }
 
     #operator, #description, #value, button {
-        border: 3px solid  rgb(187, 153, 122);
-        font-size: 1rem;
         font-family: 'Roboto', sans-serif;
         padding: 0.5rem;
     }
 
     .result {
-        font-size: 1rem;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -120,7 +116,6 @@ button {
 
     h1 {
         border-bottom: 5px solid  rgb(187, 153, 122);
-        font-family: 'Roboto', sans-serif;
         padding-right: 2rem;
         padding-left: 2rem;
         font-size: 2.5rem;
@@ -129,8 +124,7 @@ button {
 }
 
 
-
-/* For small & larger laptops/desktops*/
+/* For laptops/desktops */
 @media (min-width: 1200px) {
 
     header {
@@ -138,8 +132,6 @@ button {
     }
 
     .input-containers {
-        display: flex;
-        flex-direction: row;
         width: 100%;
         margin: auto;
         padding: 3rem;
@@ -151,14 +143,11 @@ button {
     }
 
     .result {
-        font-size: 1.5rem;
-        color: black;
         background-image: url(pics/savings.jpg);
         background-repeat: no-repeat;
         background-position: center;
         height: auto;
         margin: 1rem;
-
     }
 
     #inc, #exp, #total {

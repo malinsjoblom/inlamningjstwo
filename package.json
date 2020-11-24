@@ -1,0 +1,25 @@
+{
+  "name": "jsInUppgift",
+  "version": "1.0.0",
+  "description": "",
+  "main": "javascript.js",
+  "scripts": {​​​​
+
+    "start": "node-sass sass/main.scss style.css -w"
+
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malinsjoblom/inlamningjstwo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malinsjoblom/inlamningjstwo/issues"
+  },
+  "homepage": "https://github.com/malinsjoblom/inlamningjstwo#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
