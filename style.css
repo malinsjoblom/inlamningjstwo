@@ -1,3 +1,4 @@
+
 * {
     margin:0;
     padding: 0;
@@ -7,6 +8,7 @@
 button {
     background-color: rgb(187, 153, 122);
 }
+
 
 
 /* Media Queries small phones */ 
@@ -45,11 +47,7 @@ button {
         font-size: 0.9rem;
         text-align: center;
         font-family: 'Roboto', sans-serif;
-    }
-
-
-
-    
+    }    
 
     .result {
         font-size: 0.7rem;
@@ -175,9 +173,4 @@ button {
         border: none;
         font-weight: bolder;
     }
-
-
-
-
 }
-
