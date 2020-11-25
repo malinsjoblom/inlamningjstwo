@@ -27,7 +27,6 @@ function add() {
         div = document.getElementById("income-h1"); // the list's name is "income-h1"
 
         listTotal.push(Number(number)); //converting it to Number(number)
-
     }
 
     else {
@@ -48,19 +47,19 @@ function add() {
     console.log(listTotal)
     totalBudget.innerText = total //the total will show in html at "totalbudget"
 
-     //the list to see both income and expense 
+    //the list to see both income and expense 
     list.push({ num: number, text: txt });
     div.innerHTML = "";
     for (var i = 0; i < list.length; i++) {
         div.innerHTML += list[i].text + " ";
         div.innerHTML += list[i].num + "<br>";
-    } 
+    }
     console.log(list.length)
 
 
 
     // this function is to create a clear button to clear the whole site
-    function clear() { 
+    function clear() {
 
         location.reload()
 
@@ -72,6 +71,4 @@ function add() {
     console.log(clearButton)
 
     clearButton.addEventListener("click", clear);
-
-
 }
